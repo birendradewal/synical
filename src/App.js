@@ -1,10 +1,9 @@
 import React from "react";
 
-
 const App = () => {
   return (
     <>
-    <p>Hi</p>
+      <p>Hi</p>
     </>
   );
 };
