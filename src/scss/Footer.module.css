@@ -1,0 +1,27 @@
+footer {
+  background: #14182f;
+  color: white;
+  padding: 1.5rem 0;
+}
+
+footer .footerContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+}
+
+footer .footerContent h1 {
+  margin-bottom: 1.5rem;
+}
+
+footer .footerContent h1 code {
+  color: #ff3c3c;
+}
+
+footer .footerContent p {
+  margin-bottom: 1rem;
+  padding-right: 8rem;
+}
+/*# sourceMappingURL=Footer.module.css.map */
