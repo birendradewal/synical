@@ -1,7 +1,10 @@
+import React from "react";
+import Title from "./components/Title.component";
+
 const App = () => {
   return (
     <>
-      <p>Hi</p>
+      <Title>Contact Us</Title>
     </>
   );
 };
