@@ -1,0 +1,74 @@
+header {
+  background-color: #0a0c18;
+  color: white;
+  padding: 1.5rem 0;
+}
+
+header .headerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .headerContainer .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .headerContainer .logo h2 {
+  font-weight: normal;
+}
+
+header .headerContainer .logo h2:last-child {
+  margin-left: 0.4rem;
+  color: red;
+}
+
+header .headerContainer nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .headerContainer nav p {
+  cursor: pointer;
+  margin-right: 1rem;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  padding-bottom: 0.1rem;
+  border-bottom: 1px solid transparent;
+}
+
+header .headerContainer nav p:hover {
+  border-bottom: 1px solid #fff;
+}
+
+header .headerContainer nav p:last-child {
+  color: red;
+}
+
+header .headerContainer nav p:last-child:hover {
+  border-bottom: 1px solid red;
+}
+/*# sourceMappingURL=header.module.css.map */
