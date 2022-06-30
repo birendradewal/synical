@@ -1,9 +1,10 @@
-import DeveloperCard from "./components/DeveloperCard.component";
+import React from "react";
+
 
 const App = () => {
   return (
     <>
-      <DeveloperCard />
+    <p>Hi</p>
     </>
   );
 };
