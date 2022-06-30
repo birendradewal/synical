@@ -1,7 +1,9 @@
+import DeveloperCard from "./components/DeveloperCard.component";
+
 const App = () => {
   return (
     <>
-      <p>Hi</p>
+      <DeveloperCard />
     </>
   );
 };
