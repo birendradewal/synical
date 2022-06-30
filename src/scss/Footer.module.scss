@@ -1,0 +1,20 @@
+footer {
+  background: #14182f;
+  color: white;
+  padding: 1.5rem 0;
+  .footerContent {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    h1 {
+      margin-bottom: 1.5rem;
+      code {
+        color: #ff3c3c;
+      }
+    }
+    p {
+      margin-bottom: 1rem;
+      padding-right: 8rem;
+    }
+  }
+}
