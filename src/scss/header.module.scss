@@ -1,7 +1,7 @@
 header {
   background-color: #0a0c18;
   color: white;
-  padding: 1.5rem 0;
+  padding: 2.5rem 0;
   .headerContainer {
     display: flex;
     max-width: 1200px;
@@ -27,7 +27,7 @@ header {
       // cursor: pointer;
       p {
         cursor: pointer;
-        margin-right: 1rem;
+        margin-right: 2rem;
         transition: 0.3s ease;
         padding-bottom: 0.1rem;
         border-bottom: 1px solid transparent;
@@ -37,6 +37,7 @@ header {
         }
         &:last-child {
           color: red;
+          margin-right: 0;
           &:hover {
             border-bottom: 1px solid red;
           }

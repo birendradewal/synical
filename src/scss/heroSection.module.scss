@@ -1,0 +1,47 @@
+.heroSection {
+  max-height: 575px;
+  background-image: url("../img/herosection-bg.svg");
+  background-repeat: repeat-x;
+  background-size: contain;
+  margin-bottom: 2rem;
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 575px;
+    justify-content: space-between;
+
+    .desc {
+      width: 650px;
+      p {
+        margin: 1.5rem 0 2.5rem 0;
+      }
+      .buttons {
+        button {
+          cursor: pointer;
+        }
+        .secondaryButton {
+          background-color: transparent;
+          padding: 0.8rem 1.7rem;
+          border-radius: 5px;
+          font-weight: bold;
+          border: none;
+          color: #fff;
+          border: 1px solid transparent;
+          transition: 0.3s ease;
+          margin-left: 1.5rem;
+
+          &:hover {
+            border: 1px solid #fff;
+          }
+        }
+      }
+    }
+
+    h1 {
+      font-size: 50px;
+      font-weight: normal;
+    }
+  }
+}

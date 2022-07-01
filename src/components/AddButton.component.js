@@ -3,7 +3,7 @@ import React from "react";
 const AddButton = () => {
   return (
     <>
-      <button>Add To Discord</button>
+      <button className="primary-button">Add To Discord</button>
     </>
   );
 };

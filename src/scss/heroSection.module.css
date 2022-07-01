@@ -1,0 +1,57 @@
+.heroSection {
+  max-height: 575px;
+  background-image: url("../img/herosection-bg.svg");
+  background-repeat: repeat-x;
+  background-size: contain;
+  margin-bottom: 2rem;
+}
+
+.heroSection .wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 575px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.heroSection .wrapper .desc {
+  width: 650px;
+}
+
+.heroSection .wrapper .desc p {
+  margin: 1.5rem 0 2.5rem 0;
+}
+
+.heroSection .wrapper .desc .buttons button {
+  cursor: pointer;
+}
+
+.heroSection .wrapper .desc .buttons .secondaryButton {
+  background-color: transparent;
+  padding: 0.8rem 1.7rem;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+  border: 1px solid transparent;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  margin-left: 1.5rem;
+}
+
+.heroSection .wrapper .desc .buttons .secondaryButton:hover {
+  border: 1px solid #fff;
+}
+
+.heroSection .wrapper h1 {
+  font-size: 50px;
+  font-weight: normal;
+}
+/*# sourceMappingURL=heroSection.module.css.map */
