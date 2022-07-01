@@ -1,14 +1,24 @@
 import React from "react";
-import Footer from "./components/Footer.component";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Home from "./pages/Home.page";
+import Commands from "./pages/Commands.page";
+import Contact from "./pages/Contact.page";
+import Developers from "./pages/Developers.page";
 import Header from "./components/Header.component";
-import Herosection from "./components/Herosection.component";
 
 const App = () => {
   return (
     <>
-      <Header />
-      <Herosection />
-      <Footer />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/commands" element={<Commands />} />
+          <Route path="/dev" element={<Developers />} />
+          <Route path="/docs" element={<Header />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
     </>
   );
 };

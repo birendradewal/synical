@@ -51,25 +51,35 @@ header .headerContainer nav {
           align-items: center;
 }
 
-header .headerContainer nav p {
+header .headerContainer nav .active {
+  border-bottom: 1px solid red;
+}
+
+header .headerContainer nav a {
   cursor: pointer;
   margin-right: 2rem;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   padding-bottom: 0.1rem;
+  color: #fff;
+  text-decoration: none;
   border-bottom: 1px solid transparent;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
-header .headerContainer nav p:hover {
+header .headerContainer nav a:hover {
   border-bottom: 1px solid #fff;
 }
 
-header .headerContainer nav p:last-child {
+header .headerContainer nav a:last-child {
   color: red;
   margin-right: 0;
 }
 
-header .headerContainer nav p:last-child:hover {
+header .headerContainer nav a:last-child:hover {
   border-bottom: 1px solid red;
 }
 /*# sourceMappingURL=header.module.css.map */

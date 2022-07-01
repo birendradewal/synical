@@ -25,12 +25,20 @@ header {
       justify-content: center;
       align-items: center;
       // cursor: pointer;
-      p {
+
+      .active {
+        border-bottom: 1px solid red;
+      }
+
+      a {
         cursor: pointer;
         margin-right: 2rem;
         transition: 0.3s ease;
         padding-bottom: 0.1rem;
+        color: #fff;
+        text-decoration: none;
         border-bottom: 1px solid transparent;
+        user-select: none;
 
         &:hover {
           border-bottom: 1px solid #fff;
