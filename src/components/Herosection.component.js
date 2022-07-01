@@ -4,7 +4,7 @@ import discordimg from "../img/discord.svg";
 
 import AddButton from "./AddButton.component";
 
-const Herosection = () => {
+const HeroSection = () => {
   return (
     <>
       <section className={styles.heroSection}>
@@ -26,4 +26,4 @@ const Herosection = () => {
   );
 };
 
-export default Herosection;
+export default HeroSection;

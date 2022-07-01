@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../components/Footer.component";
 import Header from "../components/Header.component";
 
-const Contact = () => {
+const Developers = () => {
   return (
     <>
       <Header />
@@ -11,4 +11,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Developers;

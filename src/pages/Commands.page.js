@@ -1,10 +1,11 @@
 import React from "react";
+import Header from "../components/Header.component";
+import Footer from "../components/Footer.component";
 const Commands = () => {
   return (
     <>
-      <div className="bodyContainer">
-        <h4>Synical’s Default Prefix</h4>
-      </div>
+      <Header />
+      <Footer />
     </>
   );
 };
