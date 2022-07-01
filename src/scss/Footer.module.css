@@ -1,13 +1,16 @@
 footer {
   background: #14182f;
   color: white;
-  padding: 1.5rem 0;
+  padding: 2.5rem 0;
 }
 
 footer .footerContent {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   max-width: 1200px;
   margin: auto;
 }
@@ -25,16 +28,18 @@ footer .footerContent p {
   padding-right: 8rem;
 }
 
-footer .email {
+footer .footerContent .email {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 1rem;
 }
 
-footer .email p {
+footer .footerContent .email p {
+  margin-bottom: 0;
   margin-left: 0.5rem;
 }
 /*# sourceMappingURL=Footer.module.css.map */

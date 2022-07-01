@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../scss/Footer.module.css";
 import emailIcon from "../img/email.logo.svg";
+import AddButton from "./AddButton.component";
 const Footer = () => {
   return (
     <>
@@ -28,6 +29,9 @@ const Footer = () => {
           <div className={styles.term}>
             <h1>Terms Of Service</h1>
             <p>Privacy policy</p>
+          </div>
+          <div className={styles.footerBtn}>
+            <AddButton />
           </div>
         </div>
       </footer>
