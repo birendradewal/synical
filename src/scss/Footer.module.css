@@ -24,4 +24,17 @@ footer .footerContent p {
   margin-bottom: 1rem;
   padding-right: 8rem;
 }
-/*# sourceMappingURL=footer.module.css.map */
+
+footer .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .email p {
+  margin-left: 0.5rem;
+}
+/*# sourceMappingURL=Footer.module.css.map */

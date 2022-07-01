@@ -1,7 +1,7 @@
 header {
   background-color: #0a0c18;
   color: white;
-  padding: 1.5rem 0;
+  padding: 2.5rem 0;
 }
 
 header .headerContainer {
@@ -53,7 +53,7 @@ header .headerContainer nav {
 
 header .headerContainer nav p {
   cursor: pointer;
-  margin-right: 1rem;
+  margin-right: 2rem;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   padding-bottom: 0.1rem;
@@ -66,6 +66,7 @@ header .headerContainer nav p:hover {
 
 header .headerContainer nav p:last-child {
   color: red;
+  margin-right: 0;
 }
 
 header .headerContainer nav p:last-child:hover {
