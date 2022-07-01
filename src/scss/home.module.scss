@@ -1,0 +1,31 @@
+.howItWorkContainer {
+  padding: 2.5rem 0;
+  max-width: 1200px;
+  margin: auto;
+  .moderationContent {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    .left {
+      margin-right: 7rem;
+    }
+    .right {
+      h3 {
+        margin-bottom: 1rem;
+      }
+      p {
+        line-height: 1.5rem;
+        &:last-child {
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+  .economyContent {
+    flex-direction: row-reverse;
+    .left {
+      margin-right: 0;
+      margin-left: 7rem;
+    }
+  }
+}

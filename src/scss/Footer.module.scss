@@ -1,9 +1,11 @@
 footer {
   background: #14182f;
   color: white;
-  padding: 1.5rem 0;
+  padding: 2.5rem 0;
   .footerContent {
     display: flex;
+    justify-content: space-between;
+
     max-width: 1200px;
     margin: auto;
     h1 {
@@ -16,13 +18,15 @@ footer {
       margin-bottom: 1rem;
       padding-right: 8rem;
     }
-  }
-  .email {
-    display: flex;
-    align-items: center;
+    .email {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
 
-    p {
-      margin-left: 0.5rem;
+      p {
+        margin-bottom: 0;
+        margin-left: 0.5rem;
+      }
     }
   }
 }
