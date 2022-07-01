@@ -1,0 +1,33 @@
+body {
+  // background: #14182f;
+}
+
+.contactForm {
+  // background: #0a0c18;
+  // height: 800px;
+  // width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  .picture {
+    width: 50%;
+    padding: 5rem;
+    flex-direction: column;
+    align-items: center;
+    img {
+      height: 300px;
+      width: 300px;
+    }
+    h3 {
+      margin-bottom: 3rem;
+      padding-left: 5rem;
+    }
+    p {
+      margin-top: 3rem;
+      padding-left: 4rem;
+    }
+  }
+  .contactLogin {
+    width: 50%;
+  }
+}
