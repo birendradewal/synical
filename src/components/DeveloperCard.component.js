@@ -2,17 +2,17 @@ import React from "react";
 
 import styles from "../scss/developerCard.module.css";
 
-const DeveloperCard = () => {
+const DeveloperCard = ({ data }) => {
   return (
     <>
       <div className={styles.cardContainer}>
         <div className={styles.card}>
-          <div className={styles.photo}></div>
+          <img src={data.img} alt={data.name} className={styles.photo} />
           <div className={styles.name}>
-            <h2>Name</h2>
+            <h2>{data.title}</h2>
           </div>
           <div className={styles.des}>
-            <h3> -Des</h3>
+            <h3>-{data.des}</h3>
           </div>
         </div>
       </div>

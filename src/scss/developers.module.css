@@ -1,0 +1,20 @@
+.developerTitle {
+  text-align: center;
+  background: #14182f;
+  padding: 10rem 0;
+}
+
+.developerTitle h1 {
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.devContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=developers.module.css.map */
