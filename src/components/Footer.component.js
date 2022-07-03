@@ -9,9 +9,9 @@ const Footer = () => {
       <footer>
         <div className={styles.footerContent}>
           <div className={styles.synical}>
-            <h1>
+            <h2>
               Synical <code>Bot</code>
-            </h1>
+            </h2>
             <div className={styles.email}>
               <img src={emailIcon} alt="emailIcon" />
               <p>Email:Admin@gmail.com</p>
@@ -20,7 +20,7 @@ const Footer = () => {
             <p>Copyright &copy; Synical Bot, 2021</p>
           </div>
           <div className={styles.page}>
-            <h1>Pages</h1>
+            <h2>Pages</h2>
             <p>
               <NavLink
                 to={"/"}
@@ -65,7 +65,7 @@ const Footer = () => {
             </p>
           </div>
           <div className={styles.term}>
-            <h1>Terms Of Service</h1>
+            <h2>Terms Of Service</h2>
             <p>Privacy policy</p>
           </div>
           <div className={styles.footerBtn}>

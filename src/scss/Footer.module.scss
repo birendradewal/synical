@@ -8,7 +8,8 @@ footer {
 
     max-width: 1200px;
     margin: auto;
-    h1 {
+    h2 {
+      font-weight: normal;
       margin-bottom: 1.5rem;
       code {
         color: #ff3c3c;
@@ -16,16 +17,17 @@ footer {
     }
     .page {
       p {
+        transition: 0.3s ease-in-out;
         margin-bottom: 1rem;
         a {
           text-decoration: none;
           color: #fff;
           &:hover {
-            border-bottom: 1px solid #fff;
+            color: #ff3c3c;
           }
         }
         .active {
-          border-bottom: 1px solid red;
+          color: #ff3c3c;
         }
       }
     }
