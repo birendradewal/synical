@@ -15,15 +15,18 @@ footer .footerContent {
   margin: auto;
 }
 
-footer .footerContent h1 {
+footer .footerContent h2 {
+  font-weight: normal;
   margin-bottom: 1.5rem;
 }
 
-footer .footerContent h1 code {
+footer .footerContent h2 code {
   color: #ff3c3c;
 }
 
 footer .footerContent .page p {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
   margin-bottom: 1rem;
 }
 
@@ -33,11 +36,11 @@ footer .footerContent .page p a {
 }
 
 footer .footerContent .page p a:hover {
-  border-bottom: 1px solid #fff;
+  color: #ff3c3c;
 }
 
 footer .footerContent .page p .active {
-  border-bottom: 1px solid red;
+  color: #ff3c3c;
 }
 
 footer .footerContent .email {

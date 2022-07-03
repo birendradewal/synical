@@ -20,6 +20,7 @@ body {
   border: 1px solid #ff3c3c;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
+  cursor: pointer;
 }
 
 .primary-button:hover {
