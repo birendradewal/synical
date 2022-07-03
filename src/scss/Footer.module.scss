@@ -14,9 +14,20 @@ footer {
         color: #ff3c3c;
       }
     }
-    p {
-      margin-bottom: 1rem;
-      padding-right: 8rem;
+    .page {
+      p {
+        margin-bottom: 1rem;
+        a {
+          text-decoration: none;
+          color: #fff;
+          &:hover {
+            border-bottom: 1px solid #fff;
+          }
+        }
+        .active {
+          border-bottom: 1px solid red;
+        }
+      }
     }
     .email {
       display: flex;
