@@ -1,3 +1,9 @@
+.wrapper {
+  background-color: #14182f;
+  padding: 5rem 0;
+  margin-bottom: 3rem;
+}
+
 .wrapper h3 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,10 +27,10 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-bottom: 5rem;
 }
 
 nav {
+  margin-top: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
