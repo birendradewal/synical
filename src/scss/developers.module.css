@@ -1,20 +1,21 @@
-.developerTitle {
+.developerWrapper .developerTitle {
   text-align: center;
   background: #14182f;
   padding: 10rem 0;
 }
 
-.developerTitle h1 {
+.developerWrapper .developerTitle h1 {
   font-size: 50px;
   font-weight: normal;
 }
 
-.devContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.developerWrapper .devContainer {
+  max-width: 1200px;
+  margin: 2rem auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1rem;
 }
 /*# sourceMappingURL=developers.module.css.map */

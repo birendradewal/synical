@@ -1,6 +1,5 @@
 .cardContainer {
   background: #0a0c18;
-  padding: 2rem;
 }
 
 .cardContainer .card {
@@ -17,9 +16,6 @@
   border-radius: 4px;
   background: #14182f;
   color: #fff;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
   padding: 2rem;
 }
 
