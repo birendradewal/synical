@@ -46,6 +46,7 @@ nav p:first-child {
 }
 
 .commandWrapper {
+  cursor: pointer;
   max-width: 1200px;
   margin: 1rem auto;
   padding: 1rem;

@@ -8,7 +8,20 @@ import styles from "../scss/Commands.module.css";
 const Commands = () => {
   const commandsContainerRef = useRef(null);
   const commandRef = useRef(null);
-  const commands = [1, 2, 3, 4, 5];
+  const commands = [
+    {
+      title: "cuddle",
+      desc: "Cuddles the user you ping.",
+    },
+    {
+      title: "kiss",
+      desc: "Kisses the user you ping.",
+    },
+    {
+      title: "hug",
+      desc: "Hugs the user you ping.",
+    },
+  ];
 
   const handleClick = (index) => {
     const commands = commandsContainerRef.current.children;
@@ -45,7 +58,8 @@ const Commands = () => {
         {commands.map((command, index) => (
           <Command
             styles={styles}
-            key={command}
+            key={index}
+            command={command}
             actualRef={commandRef}
             onClick={() => handleClick(index)}
           />
