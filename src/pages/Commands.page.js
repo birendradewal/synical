@@ -1,10 +1,9 @@
 import React from "react";
 import Header from "../components/Header.component";
 import Footer from "../components/Footer.component";
-import styles from "../scss/Commands.module.css";
 import Title from "../components/Title.component";
-import "../components/Command.Container.component";
 import downArrow from "../img/arrowdown.svg";
+import styles from "../scss/Commands.module.css";
 const Commands = () => {
   return (
     <>
