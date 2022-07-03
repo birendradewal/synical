@@ -1,11 +1,41 @@
-import React from "react";
+import React, { useRef } from "react";
 import Header from "../components/Header.component";
 import Footer from "../components/Footer.component";
-import styles from "../scss/Commands.module.css";
 import Title from "../components/Title.component";
-import "../components/Command.Container.component";
-import downArrow from "../img/arrowdown.svg";
+import Command from "../components/Command.component";
+
+import styles from "../scss/Commands.module.css";
 const Commands = () => {
+  const commandsContainerRef = useRef(null);
+  const commandRef = useRef(null);
+  const commands = [
+    {
+      title: "cuddle",
+      desc: "Cuddles the user you ping.",
+    },
+    {
+      title: "kiss",
+      desc: "Kisses the user you ping.",
+    },
+    {
+      title: "hug",
+      desc: "Hugs the user you ping.",
+    },
+  ];
+
+  const handleClick = (index) => {
+    const commands = commandsContainerRef.current.children;
+    const command = commands[index].children[1];
+
+    for (let i = 0; i < commands.length; i++) {
+      if (i === parseInt(index)) {
+        command.style.display = "block";
+        continue;
+      }
+      commands[i].children[1].style = "";
+    }
+  };
+
   return (
     <>
       <Header />
@@ -23,14 +53,18 @@ const Commands = () => {
         <p>Economy</p>
         <p>Modmail</p>
       </nav>
-      <div className={styles.commands}>
-        <div className={styles.navContainer}>
-          <img src={downArrow} alt="arrow" />
-          <h4>help</h4>
-        </div>
-        <div className={styles.hyphen}></div>
-      </div>
 
+      <div className={styles.commandsContainer} ref={commandsContainerRef}>
+        {commands.map((command, index) => (
+          <Command
+            styles={styles}
+            key={index}
+            command={command}
+            actualRef={commandRef}
+            onClick={() => handleClick(index)}
+          />
+        ))}
+      </div>
       <Footer />
     </>
   );
