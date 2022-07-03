@@ -33,18 +33,41 @@ const Developers = () => {
       title: "Sangita",
       des: "Dev",
     },
+    {
+      img: "https://images.unsplash.com/photo-1656582117878-165d992214f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+      title: "Kamal",
+      des: "Dev",
+    },
+
+    {
+      img: "https://images.unsplash.com/photo-1656634064343-39ff5269d651?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80",
+      title: "Savyata",
+      des: "Dev",
+    },
+    {
+      img: "https://images.unsplash.com/photo-1656582117878-165d992214f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+      title: "Boka ko xora",
+      des: "Dev",
+    },
+    {
+      img: "https://images.unsplash.com/photo-1656634064343-39ff5269d651?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80",
+      title: "Boka ko xori",
+      des: "Dev",
+    },
   ];
 
   return (
     <>
       <Header />
-      <div className={styles.developerTitle}>
-        <h1>Developers / Our Teams</h1>
-      </div>
-      <div className={styles.devContainer}>
-        {developers.map((dev) => (
-          <DeveloperCard data={dev} />
-        ))}
+      <div className={styles.developerWrapper}>
+        <div className={styles.developerTitle}>
+          <h1>Developers / Our Teams</h1>
+        </div>
+        <div className={styles.devContainer}>
+          {developers.map((dev) => (
+            <DeveloperCard data={dev} />
+          ))}
+        </div>
       </div>
       <Footer />
     </>
