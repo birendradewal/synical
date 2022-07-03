@@ -1,3 +1,8 @@
+.wrapper {
+  background-color: #14182f;
+  padding: 5rem 0;
+  margin-bottom: 3rem;
+}
 .wrapper h3 {
   display: flex;
   align-items: center;
@@ -8,9 +13,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 5rem;
 }
 nav {
+  margin-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
