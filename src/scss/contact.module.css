@@ -46,19 +46,20 @@
 }
 
 .contactContainer .contactWrapper .rightPart .inputWrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
 
 .contactContainer .contactWrapper .rightPart .inputField {
-  margin-right: 1rem;
   margin-bottom: 1rem;
 }
 
 .contactContainer .contactWrapper .rightPart .inputField input {
   padding: 0.5rem 1rem;
-  width: 250px;
+  width: 100%;
 }
 
 .contactContainer .contactWrapper .rightPart p {
@@ -70,11 +71,22 @@
   width: 100%;
 }
 
+.contactContainer .contactWrapper .rightPart .message p:last-child {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
+
 .contactContainer .contactWrapper .rightPart button {
   margin-top: 1rem;
   border: 0;
   background-color: #ff3b3b;
   padding: 0.2rem 1rem;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.contactContainer .contactWrapper .rightPart button:hover {
+  -webkit-box-shadow: 0 0 20px red;
+          box-shadow: 0 0 20px red;
 }
 /*# sourceMappingURL=contact.module.css.map */
